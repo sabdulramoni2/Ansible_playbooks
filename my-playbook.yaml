@@ -4,8 +4,8 @@
   tasks:
   - name: Install nginx server
     apt: 
-      name: nginx
-      state: latets
+      name: nginx=1.26*
+      state: present
   - name: Start nginx server
     service:
       name: nginx
