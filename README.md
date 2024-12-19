@@ -1,6 +1,7 @@
 Ansible playbooks are YAML files that define a series of tasks to be executed on remote servers. They are used to automate configuration management, application deployment, and other IT tasks. Here’s a basic example of an Ansible playbook.
 
 Key Components:
+
 name: A description of the playbook or task.
 
 hosts: The group of hosts on which the playbook will run.
